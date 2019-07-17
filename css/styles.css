@@ -1,0 +1,82 @@
+.page-header {
+	background-color: blue;
+	height: 50px;
+}
+
+#zipError {
+	color: black;
+}
+
+#zip {
+	width: 260px;
+	margin-right: 10px;
+}
+
+.table-div {
+	width: 30%;
+	margin: 0px auto;
+	padding-left: 20px;
+}
+
+#info {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#temperature {
+	font-size: 2.4em;
+}
+
+#city {
+	text-decoration: underline;
+}
+
+#zipError {
+	color: red;
+	font-size: 1.7em;
+	font-weight: bold;
+	float: right;
+	margin-right: 120px;
+}
+
+td span {
+	font-size: 1.3em;
+}
+
+small {
+	font-style: italic;
+}
+
+.d-inline-block {
+width: 40px;
+height: 40px;
+}
+
+#body{
+	filter: brightness(110%);
+}
+
+.navbar {
+	height: 70px;
+}
+
+#description {
+	font-size: 1.2em;
+}
+
+#logo {
+	font-size: 1.32em;
+}
+
+ input#zip:focus {
+ 	border-color: green !important;
+ }
+ 
+ .table {
+ 	grid-row-gap: 50px;
+ }
+
+ h1 {
+ 	letter-spacing: 3px;
+ }
