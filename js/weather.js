@@ -44,7 +44,7 @@ function weather(){
 
 				$.ajax({
 					method: "GET",
-					url: "https://api.openweathermap.org/data/2.5/weather?&APPID=cad194366bc68ad8027d37715d74fb0b",
+			url: "https://api.openweathermap.org/data/2.5/weather?&APPID=a89d5f8ff8bb09f8d087a695a4063910",
 					dataType: "json",
 					data: {"zip": $("#zip").val(), units: "imperial"},
 					success: function(result, status){
